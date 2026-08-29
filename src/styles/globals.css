@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@config "../tailwind.config.js";
+
+/* A assinatura graffiti é um detalhe de marca isolado; o restante do site mantém a tipografia original. */
+.font-graffiti {
+  font-family: "Sedgwick Ave Display", "Brush Script MT", cursive;
+  letter-spacing: 0.02em;
+}
+
+.light-signature {
+  color: #5c5ef0;
+  font-size: clamp(3.6rem, 10vw, 7.5rem);
+  line-height: 0.82;
+  transform: rotate(-3deg);
+  text-shadow: 3px 3px 0 rgb(92 94 240 / 12%);
+  transition: transform 200ms ease, color 200ms ease;
+}
+
+.light-signature:hover {
+  color: #f4f4f5;
+  transform: rotate(-3deg) translateY(-3px) scale(1.02);
+}
