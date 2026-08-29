@@ -35,10 +35,10 @@ export function ActionOverlay({ visible, action }: ActionOverlayProps) {
       <div className="relative flex flex-col items-center text-center px-6">
         <div className="p-4 rounded-full bg-primary/10">
           <img
-            src="/vision.png"
+            src="/light.png"
             width={56}
             height={56}
-            alt="Vision"
+            alt="Light Solutions"
             className="animate-spin [animation-duration:2.2s]"
           />
         </div>

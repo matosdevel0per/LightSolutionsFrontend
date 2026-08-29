@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   },
   description: siteConfig.description,
   icons: {
-    icon: "/vision.png",
+    icon: "/light.png",
   },
   openGraph: {
     title: siteConfig.name,

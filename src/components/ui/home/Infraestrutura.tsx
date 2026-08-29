@@ -175,7 +175,7 @@ export function InfraestruturaSection() {
                         <div className="ml-2 h-[1px] w-full border-b border-foreground/10 self-center" />
                         </div>
                         <div className="flex flex-row gap-2 mt-1">
-                        <img src="vision.png" className="h-8 w-8 filter grayscale brightness-110" />
+                        <img src="/light.png" className="h-8 w-8 filter grayscale brightness-110" />
                         <div className="h-[70%] self-center w-[1px] border-l border-foreground/10" />
                         <a href="https://discloud.app" target="_blank"><img src="discloud.png" className="h-8 w-8 filter grayscale brightness-60" /></a>
                         </div>

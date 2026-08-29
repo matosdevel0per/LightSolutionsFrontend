@@ -13,13 +13,13 @@ export const Footer = () => (
     <section className="flex w-full flex-col md:flex-row gap-5 md:gap-20 max-w-7xl mx-auto px-6 md:justify-between">
         <div className="flex flex-col gap-2 md:justify-center">
             <Link href="/" className="flex flex-row gap-2 items-center select-none w-fit">
-                <Image src="/vision.png" alt="Logo" height={40} width={40} />
+                <Image src="/light.png" alt="Logo" height={40} width={40} />
                 <div className="flex flex-col leading-tight">
                     <span className="text-foreground/90 font-normal font-sans text-[13px]">
-                        Vision
+                        Light
                     </span>
                     <span className="text-foreground/60 font-normal font-sans text-[13px]">
-                        Applications
+                        Solutions
                     </span>
                 </div>
             </Link>

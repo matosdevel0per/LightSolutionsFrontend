@@ -70,7 +70,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
   if (loading) {
     return (
       <div className="h-screen overflow-hidden flex flex-col items-center justify-center">
-        <img src="/vision.png" width={80} height={80} className="animate-pulse [animation-duration:3s]" />
+        <img src="/light.png" width={80} height={80} className="animate-pulse [animation-duration:3s]" />
         <p className="text-foreground/50 text-sm">Carregando informações</p>
       </div>
     );

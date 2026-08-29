@@ -11,7 +11,7 @@ export function AboutProduct() {
       <div className="flex flex-col gap-2 mt-20">
         <h2 className="text-2xl font-bold">Conheça o nosso produto</h2>
         <p className="text-foreground/70 text-sm leading-relaxed">
-          <span className="font-bold text-foreground/90">Feito para você.</span> Na Vision,
+          <span className="font-bold text-foreground/90">Feito para você.</span> Na Light Solutions,
           projetamos o bot mais completo para automatizar de vez a sua loja no Discord.
           Nosso foco é simples: <span className="font-bold text-primary">velocidade, segurança e praticidade</span>.
           <br className="" />
