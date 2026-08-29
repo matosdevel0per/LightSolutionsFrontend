@@ -17,7 +17,7 @@ export function PlanosSection() {
           </p>
           <hr className="border-foreground/10 my-3" />
           <div className="flex flex-col">
-            <p className="text-primary text-[12px]">Com a Vision você paga apenas</p>
+            <p className="text-primary text-[12px]">Com a Light você paga apenas</p>
             <p className="text-primary text-3xl font-bold">
               R$15,00
               <span className="text-foreground/60 text-[12px] font-[300]">/ mês</span>

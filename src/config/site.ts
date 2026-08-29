@@ -5,7 +5,7 @@ export const pagesWithoutNativeComponents = [
 ]
 
 export const siteConfig = {
-  name: "Vision Applications – Tecnologia de ponta que transforma",
+  name: "Light Solutions – Tecnologia de ponta que transforma",
   description: "Os bots mais completos para Discord - Ticket, Vendas, Moderação, Proteção e OAuth2",
   cnpj: "62.944.424/0001-61",
   socials: {

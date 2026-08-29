@@ -139,7 +139,7 @@ export function InfraestruturaSection() {
                                 <circle cx="64" cy="64" r="10" className="text-foreground/20" fill="currentColor" />
                             </svg>
                             <div className="flex flex-col">
-                                <p className="text-foreground/70 text-[10px] uppercase font-[monospace]">Vision AI</p>
+                                <p className="text-foreground/70 text-[10px] uppercase font-[monospace]">Light AI</p>
                                 <p className="text-foreground/70 text-[11px] leading-tight md:max-w-xs">
                                 Tecnologia de processamento de linguagem natural para respostas precisas, automações inteligentes e análise contextual em tempo real.
                                 </p>

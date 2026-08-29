@@ -34,7 +34,7 @@ export function Hero() {
           className="w-full md:w-fit text-center items-center justify-center px-5 py-1 bg-primary/30 backdrop-blur-[32px] border border-primary/20 rounded-full text-foreground text-[12px] self-center flex flex-row gap-2"
         >
           <p>
-            Cupom VISION <span className="font-semibold">50% OFF</span>
+            Cupom LIGHT <span className="font-semibold">50% OFF</span>
           </p>
           <p className="text-primary/50">|</p>
           <Link href="/pricing" showAnchorIcon className="text-xs text-foreground bg p-1">
