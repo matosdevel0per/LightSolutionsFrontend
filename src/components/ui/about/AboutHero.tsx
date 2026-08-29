@@ -40,7 +40,7 @@ export function AboutHero() {
 
           <p className="text-foreground/70 text-sm leading-relaxed mb-3">
             Com a{" "}
-            <span className="font-semibold text-primary">Light</span>, vender no
+            <span className="font-semibold text-primary">Vision</span>, vender no
             Discord é tão simples que você pode faturar enquanto joga, assiste sua
             série favorita ou aproveita o intervalo do café.
           </p>

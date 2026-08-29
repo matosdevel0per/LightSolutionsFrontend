@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/thumbnail.png",
+        url: "/thumbnail.jpg",
         width: 1200,
         height: 630,
         alt: "Vision Applications",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     title: siteConfig.name,
     description: siteConfig.description,
     images: [
-      "/thumbnail.png",
+      "/thumbnail.jpg",
     ],
   },
 };

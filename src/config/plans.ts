@@ -2,7 +2,7 @@ import { faCartShopping, faCloud } from "@fortawesome/free-solid-svg-icons"
 
 export const plans = [
     {
-        name: "Light Pro",
+        name: "Vision Pro",
         id: "vision-pro",
         icon: faCartShopping,
         description: "O plano completo desenvolvido para quem precisa de qualidade e segurança no Discord.",
@@ -13,7 +13,7 @@ export const plans = [
             { title: "Comandos úteis para o seu servidor" },
             { title: "Sistema de proteção e moderação" },
             { title: "Sistema de Tickets completo com IA" },
-            { title: "LightCloud & backup incluso" },
+            { title: "VisionCloud & backup incluso" },
             { title: "Logs completas e detalhadas" },
             { title: "Mensagens de boas vindas" },
             { title: "Restreio e logs de convites" },
@@ -49,7 +49,7 @@ export const plans = [
         ]
     },
     {
-        name: "Light Cloud",
+        name: "Vision Cloud",
         id: "vision-cloud",
         icon: faCloud,
         description: "Proteja seu servidor com OAuth2 e restaure seus membros facilmente. Mais segurança, mais confiança.",

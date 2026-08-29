@@ -5,7 +5,7 @@ import { Topbar } from "@/components/ui/dashboard/app/Topbar";
 import { useState, useEffect } from "react";
 import { useParams } from "next/navigation";
 import { useAppInfo } from "@/hooks/useApp";
-import NotFound from "@/app/not-found";
+import NotFound from "../../../not-found";
 import { actionBus } from "@/lib/events/actionBus";
 import { ActionOverlay } from "@/components/ui/dashboard/app/ActionOverlay";
 

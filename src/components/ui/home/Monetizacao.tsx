@@ -33,7 +33,7 @@ export function MonetizacaoSection() {
         <h1 className="text-4xl font-bold max-w-2xl">Transforme seu servidor em uma fonte de receita</h1>
         <div className="flex flex-col gap-1">
           <p className="text-foreground/70 text-sm max-w-2xl">
-            O Light Pro integra soluções de pagamento direto no Discord, permitindo que você monetize sua comunidade sem depender de plataformas externas. <span className="font-semibold text-foreground">Ofereça assinaturas, produtos digitais ou serviços com transações rápidas, seguras e diversificadas.</span>
+            O Vision Pro integra soluções de pagamento direto no Discord, permitindo que você monetize sua comunidade sem depender de plataformas externas. <span className="font-semibold text-foreground">Ofereça assinaturas, produtos digitais ou serviços com transações rápidas, seguras e diversificadas.</span>
           </p>
           <Link
             href="/pricing"
@@ -46,7 +46,7 @@ export function MonetizacaoSection() {
       </div>
 
       <section ref={estimativaRef as any} className="flex flex-col gap-2">
-        <span className="text-[12px] text-primary">Estimativa de resultados com a Light</span>
+        <span className="text-[12px] text-primary">Estimativa de resultados com a Vision</span>
         <div className="flex flex-col lg:flex-row gap-2 md:gap-5">
           <div className="w-full" ref={chartRef}>
             <CustomLineChart data={CHART_DATA} className="outline-none" />

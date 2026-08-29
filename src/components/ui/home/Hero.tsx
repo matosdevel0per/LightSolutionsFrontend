@@ -34,7 +34,7 @@ export function Hero() {
           className="w-full md:w-fit text-center items-center justify-center px-5 py-1 bg-primary/30 backdrop-blur-[32px] border border-primary/20 rounded-full text-foreground text-[12px] self-center flex flex-row gap-2"
         >
           <p>
-            Cupom LIGHT <span className="font-semibold">50% OFF</span>
+            Cupom VISION <span className="font-semibold">50% OFF</span>
           </p>
           <p className="text-primary/50">|</p>
           <Link href="/pricing" showAnchorIcon className="text-xs text-foreground bg p-1">
@@ -78,7 +78,7 @@ export function Hero() {
           transition={{ delay: 1.2, duration: 0.5, ease: "easeOut" }}
           className="text-foreground/70 font-normal text-[15px] max-w-2xl self-center"
         >
-          Eleve o padrão da sua comunidade e aumente seus resultados com soluções feitas para operar melhor. <span className="font-semibold text-foreground/90">Performance, segurança e inovação</span> para o próximo passo do seu negócio.
+          Eleve o padrão do seu negócio e aumente seus resultados com as nossas soluções. <span className="font-semibold text-foreground/90">Performance, segurança e inovação</span> para o crescimento do seu negócio.
         </motion.p>
         <div className="flex gap-2 md:gap-5 flex-col md:flex-row md:items-center md:justify-center mt-2">
           <motion.div
@@ -102,7 +102,7 @@ export function Hero() {
               }}
             >
               <span className="flex items-center justify-center gap-1">
-                Conheça nossas soluções <FontAwesomeIcon icon={faChevronRight} className="text-[11px] duration-200 transition-all hover:text-foreground text-foreground/80" />
+                Conheça nossos produtos <FontAwesomeIcon icon={faChevronRight} className="text-[11px] duration-200 transition-all hover:text-foreground text-foreground/80" />
               </span>
             </Button>
           </motion.div>
@@ -118,7 +118,7 @@ export function Hero() {
               }}
             >
               <span className="flex items-center justify-center gap-1">
-                Conheça nossas soluções <FontAwesomeIcon icon={faChevronRight} className="text-[11px] duration-200 transition-all hover:text-foreground text-foreground/80" />
+                Conheça nossos produtos <FontAwesomeIcon icon={faChevronRight} className="text-[11px] duration-200 transition-all hover:text-foreground text-foreground/80" />
               </span>
             </Button>
           </motion.div>

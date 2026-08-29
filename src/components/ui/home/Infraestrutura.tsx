@@ -139,7 +139,7 @@ export function InfraestruturaSection() {
                                 <circle cx="64" cy="64" r="10" className="text-foreground/20" fill="currentColor" />
                             </svg>
                             <div className="flex flex-col">
-                                <p className="text-foreground/70 text-[10px] uppercase font-[monospace]">Light AI</p>
+                                <p className="text-foreground/70 text-[10px] uppercase font-[monospace]">Vision AI</p>
                                 <p className="text-foreground/70 text-[11px] leading-tight md:max-w-xs">
                                 Tecnologia de processamento de linguagem natural para respostas precisas, automações inteligentes e análise contextual em tempo real.
                                 </p>
@@ -175,7 +175,7 @@ export function InfraestruturaSection() {
                         <div className="ml-2 h-[1px] w-full border-b border-foreground/10 self-center" />
                         </div>
                         <div className="flex flex-row gap-2 mt-1">
-                        <img src="light.png" className="h-8 w-8 filter grayscale brightness-110" />
+                        <img src="vision.png" className="h-8 w-8 filter grayscale brightness-110" />
                         <div className="h-[70%] self-center w-[1px] border-l border-foreground/10" />
                         <a href="https://discloud.app" target="_blank"><img src="discloud.png" className="h-8 w-8 filter grayscale brightness-60" /></a>
                         </div>

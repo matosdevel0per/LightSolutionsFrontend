@@ -68,7 +68,7 @@ export function getAppSidebarGroups(base: string, opts?: { betaMode?: boolean })
       id: "sistemas",
       label: "Sistemas",
       items: [
-        { id: "cloud", label: "Light Cloud", href: `${base}/cloud`, icon: faCloud },
+        { id: "cloud", label: "Vision Cloud", href: `${base}/cloud`, icon: faCloud },
         { id: "protections", label: "Proteções", href: `${base}/protections`, icon: faShield },
         { id: "automations", label: "Automações", href: `${base}/automations`, icon: faRotateRight },
         { id: "store", label: "Loja", href: `${base}/store`, icon: faShop },

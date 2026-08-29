@@ -19,7 +19,7 @@ export function AutomacaoSection() {
           <p className="text-foreground/70 text-sm max-w-2xl">
             <span className="font-semibold text-primary">Um sistema feito para te ajudar.</span>
             <br />
-            O Light Pro elimina a necessidade de microgestão no dia a dia do seu servidor. Com sistemas inteligentes de automação, ele assume tarefas repetitivas e mantém tudo funcionando de forma organizada.
+            O Vision Pro elimina a necessidade de microgestão no dia a dia do seu servidor. Com sistemas inteligentes de automação, ele assume tarefas repetitivas e mantém tudo funcionando de forma organizada.
           </p>
         </div>
         <Link

@@ -69,7 +69,7 @@ export function BotTokenSection({ appId, botId, onUpdate }: BotTokenSectionProps
 
   // Valida formato do token Discord
   const validateToken = (token: string): boolean => {
-    // Formato: SEU TOKEN DO BOT DISCORD
+    // Formato esperado: token do Discord (não armazenar tokens no código)
     const regex = /^[A-Za-z0-9_-]{24,}\.[A-Za-z0-9_-]{6,}\.[A-Za-z0-9_-]{27,}$/;
     return regex.test(token);
   };
@@ -284,7 +284,6 @@ export function BotTokenSection({ appId, botId, onUpdate }: BotTokenSectionProps
                   
                   <Input
                     label="Novo Token"
-                    placeholder="MTQxMDc2NDk1MjE0MjA5MDM2NQ.G-C4rt.AnA..."
                     value={newToken}
                     onChange={(e) => {
                       setNewToken(e.target.value);

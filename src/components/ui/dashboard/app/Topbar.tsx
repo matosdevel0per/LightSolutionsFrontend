@@ -30,10 +30,10 @@ export function Topbar({ onOpenSidebar }: TopbarProps) {
             <Logo size={38} width={38} height={38} />
             <div className="flex flex-col leading-[15px]">
               <span className="text-foreground/90 font-normal font-sans text-[13px]">
-                Light
+                Vision
               </span>
               <span className="text-foreground/60 font-normal font-sans text-[12px]">
-                Solutions
+                Applications
               </span>
             </div>
         </div>

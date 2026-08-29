@@ -13,13 +13,13 @@ export const Footer = () => (
     <section className="flex w-full flex-col md:flex-row gap-5 md:gap-20 max-w-7xl mx-auto px-6 md:justify-between">
         <div className="flex flex-col gap-2 md:justify-center">
             <Link href="/" className="flex flex-row gap-2 items-center select-none w-fit">
-                <Image src="/light.png" alt="Logo" height={40} width={40} />
+                <Image src="/vision.png" alt="Logo" height={40} width={40} />
                 <div className="flex flex-col leading-tight">
                     <span className="text-foreground/90 font-normal font-sans text-[13px]">
-                        Light
+                        Vision
                     </span>
                     <span className="text-foreground/60 font-normal font-sans text-[13px]">
-                        Solutions
+                        Applications
                     </span>
                 </div>
             </Link>
@@ -55,12 +55,5 @@ export const Footer = () => (
             ))}
         </div>
     </section>
-    <div className="w-full max-w-7xl mx-auto px-6 mt-10 pt-8 border-t border-foreground/10 flex flex-col items-center gap-2 md:flex-row md:items-end md:justify-between overflow-hidden">
-        <div className="flex flex-col items-center md:items-start">
-            <span className="font-graffiti light-signature select-none" aria-label="Seja Light">SEJA LIGHT</span>
-            <span className="text-foreground/50 text-[11px] uppercase tracking-[0.18em]">Ideias claras. Tecnologia presente.</span>
-        </div>
-        <span className="text-foreground/40 text-[11px]">Light Solutions</span>
-    </div>
   </footer>
 );
